@@ -1,3 +1,7 @@
+---
+title: sample post
+---
+
 <!DOCTYPE html>
 <html>
 <head>    
