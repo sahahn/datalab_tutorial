@@ -49,7 +49,7 @@ we use includes on the IFrame wraped and saved map, we can nest in on the page.
 ## Table Examples
 
 First version of table, w/ default settings
-{% include example_table2.html %}
+{% include example_table1.html %}
 
 Second with a tiny bit more customization 
 {% include example_table2.html %}
