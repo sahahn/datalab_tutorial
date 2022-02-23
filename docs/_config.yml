@@ -3,4 +3,5 @@ email: sahahn@uvm.edu
 description: Example site for tutorial
 source: docs/
 markdown: kramdown
+permalink: /:year/:title:output_ext
 theme: jekyll-theme-cayman
