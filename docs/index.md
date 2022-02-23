@@ -8,13 +8,12 @@ title: Tutorial
 We can add different content on seperate pages easily
 [Link to base tutorial](./original_index.md)
 
-
 We can also change how text looks with HTML
 {: style="font-size: 85%; text-align: center;"}
 
 ## Basic Plot Example
 
-Can plot based on a link to anywhere on web, so in first case, to static link on github (https://raw.githubusercontent.com/sahahn/datalab_tutorial/gh-pages/basic_plot.png)
+Can plot based on a link to anywhere on web, so in first case, to static link on githuh
 
 ![arbitrary link](https://raw.githubusercontent.com/sahahn/datalab_tutorial/gh-pages/basic_plot.png)
 
@@ -23,7 +22,6 @@ Otherwise, we can show the image with a relative link, but this means we need to
 ![rel link](./basic_plot.png)
 
 ## Plotly / Interactive Figure Example
-
 
 We can add the figure using includes
 
@@ -55,14 +53,5 @@ First version of table, w/ default settings
 {% include example_table1.html %}
 
 Second with a tiny bit more customization 
-
-{% include example_table2.html %}
-
-???
-
-{% include example_table1.html %}
-123
-{% include example_table2.html %}
-
 
 {% include example_table2.html %}
