@@ -55,3 +55,12 @@ First version of table, w/ default settings
 Second with a tiny bit more customization 
 
 {% include example_table2.html %}
+
+
+## Show full notebooks
+
+Note: maybe a better way would be to share google collab's?
+
+But, in this example we will use github actions to automatically make an html version of our notebook.
+
+
