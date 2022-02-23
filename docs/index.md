@@ -8,3 +8,5 @@ title: Test
 {% include test1.html %}
 
 {% include test2.html %}
+
+{% include test3.html %}
