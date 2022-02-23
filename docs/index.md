@@ -45,3 +45,7 @@ we use includes on the IFrame wraped and saved map, we can nest in on the page.
 
 {% include example_map_iframe.html %}
 
+{% include example_map_iframe.html %}{: height="250" }
+
+
+
