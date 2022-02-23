@@ -1,1 +1,6 @@
+title: Example Site
+email: sahahn@uvm.edu
+description: Example site for tutorial
+source: docs/
+markdown: kramdown
 theme: jekyll-theme-cayman
