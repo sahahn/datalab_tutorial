@@ -26,6 +26,7 @@ Otherwise, we can show the image with a relative link, but this means we need to
 
 
 We can add the figure using includes
+
 {% include plotly.html %}
 
 And / or if we add the html in the docs folder, we can link to it directly
@@ -38,6 +39,7 @@ And / or if we add the html in the docs folder, we can link to it directly
 
 But, if we try to include the html directly it won't work, even though it
 is saved in the includes folder,
+
 {% include example_map.html %}
 
 The reason is that we need for some HTML, to wrap it in an IFrame, now if 
@@ -49,13 +51,18 @@ we use includes on the IFrame wraped and saved map, we can nest in on the page.
 ## Table Examples
 
 First version of table, w/ default settings
+
 {% include example_table1.html %}
 
 Second with a tiny bit more customization 
+
+{% include example_table2.html %}
+
+???
+
+{% include example_table1.html %}
+123
 {% include example_table2.html %}
 
 
-*Table columns are sortable!*
-{: style="font-size: 85%; text-align: center;"}
-
-{% include example_table1.html %}
+{% include example_table2.html %}
