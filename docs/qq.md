@@ -8,7 +8,8 @@ title: Test
     <title>First try</title>
   </head>
   <body>
-    <iframe src="./example_map.html" title="Basic map with folium" style={{ border: "none", width: '800px', height: '300px' }}></iframe>
+    <iframe src="./example_map.html" title="Basic map with folium"></iframe>
+    <iframe src="example_map.html" title="Basic map with folium"></iframe>
   </body>
 </html>
 
