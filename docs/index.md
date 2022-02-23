@@ -15,9 +15,11 @@ We can also change how text looks with HTML
 ## Basic Plot Example
 
 Can plot based on a link to anywhere on web, so in first case, to static link on github (https://raw.githubusercontent.com/sahahn/datalab_tutorial/gh-pages/basic_plot.png)
+
 ![arbitrary link](https://raw.githubusercontent.com/sahahn/datalab_tutorial/gh-pages/basic_plot.png)
 
 Otherwise, we can show the image with a relative link, but this means we need to save it in the docs folder (/basic_plot.png)
+
 ![rel link](./basic_plot.png)
 
 ## Plotly / Interactive Figure Example
