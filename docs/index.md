@@ -32,6 +32,14 @@ And / or if we add the html in the docs folder, we can link to it directly
 
 ## Map Example
 
+[We can link to the base map directly](./example_map.html)
+
+But, if we try to include the html directly it won't work, even though it
+is saved in the includes folder,
+{% include example_map.html %}
+
+The reason is that we need for some HTML, to wrap it in an IFrame, now if 
+we use includes on the IFrame wraped and saved map, we can nest in on the page.
 
 {% include example_map_iframe.html %}
 {: text-align: center;"}
