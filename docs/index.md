@@ -1,5 +1,13 @@
 ---
-title: Test
+title: Tutorial
 ---
 
-{% include example_map_iframe.html %}
+## Basic Tutorial
+
+Change how text looks with HTML
+{: style="font-size: 85%; text-align: center;"}
+
+
+
+[Link to Map Example](./map_example.md)
+
