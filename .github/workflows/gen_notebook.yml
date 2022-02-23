@@ -28,16 +28,16 @@ jobs:
         run: |
           jupyter nbconvert --to html --output-dir=docs generate_examples.ipynb 
 
-    # Next, we need to commit the new files into the repository
-    - name: Commit files
-      run: |
-        git config --local user.name ${{ github.actor }}
-        git add ./docs
-        git commit -m "Update HTML docs"
+      # Next, we need to commit the new files into the repository
+      - name: Commit files
+        run: |
+          git config --local user.name ${{ github.actor }}
+          git add ./docs
+          git commit -m "Update HTML docs"
 
-    # Push the change
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        force: true
+      # Push the change
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
