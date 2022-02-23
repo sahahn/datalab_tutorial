@@ -53,3 +53,9 @@ First version of table, w/ default settings
 
 Second with a tiny bit more customization 
 {% include example_table2.html %}
+
+
+*Table columns are sortable!*
+{: style="font-size: 85%; text-align: center;"}
+
+{% include example_table1.html %}
