@@ -2,8 +2,12 @@
  layout: default
  --- 
 
+{% include plotly.html %}
+Click [Here](./plotly.html)
+Click [Here](./_includes/plotly.html)
+
+
+
 {% include example_map.html %}
-
-{% include example_map %}
-
 Click [Here](./example_map.html)
+Click [Here](./_includes/example_map.html)
