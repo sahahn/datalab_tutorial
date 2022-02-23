@@ -42,5 +42,4 @@ The reason is that we need for some HTML, to wrap it in an IFrame, now if
 we use includes on the IFrame wraped and saved map, we can nest in on the page.
 
 {% include example_map_iframe.html %}
-{: text-align: center;"}
 
