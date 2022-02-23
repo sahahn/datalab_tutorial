@@ -2,11 +2,9 @@
 title: Test
 ---
 
-{% include plotly.html %}
-Click [Here](./plotly.html)
+# {% include plotly.html %}
+# Click [Here](./plotly.html)
 
-{% include example_map2.html %}
+{% include test1.html %}
 
-{% include example_map3.html %}
-
-{% include example_map4.html %}
+{% include test2.html %}
