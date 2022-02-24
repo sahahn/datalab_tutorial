@@ -64,3 +64,4 @@ Note: maybe a better way would be to share google collab's?
 But, in this example we will use github actions to automatically make an html version of our notebook.
 
 
+[go to generated html version](./generate_examples.html)

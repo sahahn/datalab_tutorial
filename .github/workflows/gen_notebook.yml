@@ -1,7 +1,12 @@
 name: Make HTML Notebook
 
-# Means this should run on every push
-on: [push]
+# We want to say this action should
+# run only when the notebook is changed
+# to avoid loops
+on:
+  push:
+    paths:
+     - 'generate_examples.ipynb'
 
 jobs:
   notebook:
@@ -33,11 +38,17 @@ jobs:
         run: |
           git config --local user.name ${{ github.actor }}
           git add ./docs
-          git commit -m "Update HTML docs"
+          git commit -m "Update docs"
 
-      # Push the change
+      # Get branch name
+      - name: Get branch names
+        id: branch-name
+        uses: tj-actions/branch-names@v5.1
+
+      # Push the change to current branch
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
+          branch: ${{ steps.branch-name.outputs.ref_branch }}
